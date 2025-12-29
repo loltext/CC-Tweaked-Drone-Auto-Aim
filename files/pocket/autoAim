@@ -1,6 +1,6 @@
 -- Basalt 2 Generated Code
 local basalt = require("basalt")
-local nave= 0
+local drone= 0
 rednet.open("back")
 local home= "-5 140 -40"
 
@@ -76,7 +76,7 @@ local element10 = main:addFrame()
 
 element3:onClick(function()
     local msg = element2:getText()
-    rednet.send(nave,msg)
+    rednet.send(drone,msg)
 end)
 
 
@@ -86,3 +86,4 @@ end)
 
 
 basalt.run()
+
