@@ -11,6 +11,7 @@ It’s not perfect, but it works and can be used as a starting point for more ad
 2. Place the Ship Control Interface next to the PC that has the drone files, or you can also connect it via a wired modem.  
 3. Make sure to have a gyroscope connected to a battery and an ion thruster to propel the drone.  
 4. When building your drone, I recommend using lightweight materials. I also suggest using the Zero Point Labs mod and equipping your drone with a Mass Suspension Matrix to avoid gravity-related issues.
+5. In the Pocket code, make sure that your drone’s PC ID matches so you can send messages via Rednet.
 
 
 ---
