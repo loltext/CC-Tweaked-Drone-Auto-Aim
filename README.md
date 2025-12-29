@@ -1,6 +1,6 @@
 # CC:Tweaked Drone Auto-Aim
 
-This is one of my first projects using **CC:Tweaked** and **Kontraptio**.
+This is one of my first projects using **CC:Tweaked** and **Kontraption**.
 
 The project implements a very simple **drone auto-aim system** that can also be reused as a basic **autopilot**.  
 It’s not perfect, but it works and can be used as a starting point for more advanced automation.
