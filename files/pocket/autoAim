@@ -1,0 +1,88 @@
+-- Basalt 2 Generated Code
+local basalt = require("basalt")
+local nave= 0
+rednet.open("back")
+local home= "-5 140 -40"
+
+
+-- Basalt 2 Generated Code
+local basalt = require("basalt")
+
+-- Create main frame
+local main = basalt.createFrame()
+    :setSize(26, 20)
+    :setBackground(colors.lightGray)
+
+-- Label element
+local element1 = main:addLabel()
+    :setPosition(8, 1)
+    :setSize(12, 1)
+    :setText("autoAim")
+    :setBackground(colors.orange)
+    :setForeground(colors.black)
+
+-- Input element
+local element2 = main:addInput()
+    :setPosition(2, 7)
+    :setSize(24, 1)
+    :setPlaceholder("X,Y,Z")
+
+-- Button element
+local element3 = main:addButton()
+    :setPosition(9, 6)
+    :setSize(10, 1)
+    :setText("Fire")
+    :setBackground(colors.orange)
+    :setForeground(colors.gray)
+
+-- Frame element
+local element4 = main:addFrame()
+    :setSize(1, 19)
+    :setBackground(colors.gray)
+    :setForeground(colors.gray)
+
+-- Frame element
+-- Frame element
+local element6 = main:addFrame()
+    :setPosition(1, 20)
+    :setSize(26, 1)
+    :setBackground(colors.gray)
+    :setForeground(colors.gray)
+
+-- Frame element
+local element7 = main:addFrame()
+    :setPosition(2, 1)
+    :setSize(6, 1)
+    :setBackground(colors.gray)
+
+-- Frame element
+
+-- Frame element
+local element9 = main:addFrame()
+    :setPosition(20, 1)
+    :setSize(7, 1)
+    :setBackground(colors.gray)
+
+-- Frame element
+local element10 = main:addFrame()
+    :setPosition(26, 2)
+    :setSize(1, 19)
+    :setBackground(colors.gray)
+    :setForeground(colors.gray)
+
+-- Button element
+
+
+
+element3:onClick(function()
+    local msg = element2:getText()
+    rednet.send(nave,msg)
+end)
+
+
+
+
+
+
+
+basalt.run()
