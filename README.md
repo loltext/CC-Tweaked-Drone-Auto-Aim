@@ -16,18 +16,18 @@ It’s not perfect, but it works and can be used as a starting point for more ad
 
 ---
 
-## 🎥 Demo
+##  Demo
 A short demo video showing the auto-aim and basic autopilot behavior:  
 **YouTube:** https://www.youtube.com/watch?v=D9Z3eoyV0K8
 
 ---
 
-## 🛠️ Notes
+##  Notes
 - This is an early project and mainly for learning purposes
 - Improvements and suggestions are welcome
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the **Apache License 2.0**.  
 See the `LICENSE` file for details.
